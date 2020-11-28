@@ -1,3 +1,4 @@
+'use strict'
 // Esercizio : capire quale è il risultato booleano
 5 > 4 // true
 "apple" > "pineapple" // false
@@ -55,7 +56,7 @@ if (a + b < 4) {
   result = 'Over';
 }
 */
-let result = (a + b < 4) ? result = 'Below' : result = 'Over'
+//let result = (a + b < 4) ? result = 'Below' : result = 'Over'
 
 /*
 Rewrite if..else using multiple ternary operators '?'.
@@ -74,8 +75,10 @@ if (login == 'Employee') {
   message = '';
 }
 */
-
+/*
 let message = (login == 'Employee') ? 'Hello'     :
               (login == 'Director') ? 'Greetings' :
               (login == '')         ? 'No login'  :
               ''
+*/
+
